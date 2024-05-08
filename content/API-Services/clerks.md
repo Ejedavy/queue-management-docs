@@ -1,7 +1,6 @@
 +++
 title = 'Clerks'
 date = 2024-05-08T12:19:55+03:00
-draft = true
 weight = 14
 +++
 

@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Queue Management System Developer Docuementation'
 
 # Change the default theme
 theme = "hugo-theme-learn"

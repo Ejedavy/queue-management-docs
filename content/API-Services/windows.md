@@ -1,7 +1,6 @@
 +++
 title = 'Windows'
 date = 2024-05-08T12:19:42+03:00
-draft = true
 weight = 13
 +++
 

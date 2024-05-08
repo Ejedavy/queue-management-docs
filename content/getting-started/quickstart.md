@@ -1,7 +1,6 @@
 +++
 title = 'Quickstart'
 date = 2024-05-08T12:00:49+03:00
-draft = true
 weight = 7
 +++
 

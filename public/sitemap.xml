@@ -5,14 +5,53 @@
     <loc>http://localhost:1313/getting-started/</loc>
     <lastmod>2024-05-08T11:23:15+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/getting-started/quickstart/</loc>
-    <lastmod>2024-05-08T12:00:49+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-08T11:26:55+03:00</lastmod>
+    <loc>http://localhost:1313/api-services/</loc>
+    <lastmod>2024-05-08T12:12:18+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/getting-started/installation/</loc>
     <lastmod>2024-05-08T11:24:54+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2024-05-08T12:10:56+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/getting-started/quickstart/</loc>
+    <lastmod>2024-05-08T12:00:49+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contribute/</loc>
+    <lastmod>2024-05-08T12:11:03+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/maintenance/</loc>
+    <lastmod>2024-05-08T12:11:18+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/api-services/authentication/</loc>
+    <lastmod>2024-05-08T12:19:06+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/api-services/users/</loc>
+    <lastmod>2024-05-08T12:19:21+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/api-services/services/</loc>
+    <lastmod>2024-05-08T12:19:33+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/api-services/windows/</loc>
+    <lastmod>2024-05-08T12:19:42+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/api-services/clerks/</loc>
+    <lastmod>2024-05-08T12:19:55+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/api-services/operations/</loc>
+    <lastmod>2024-05-08T12:20:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/maintenance/main/</loc>
+    <lastmod>2024-05-08T12:24:40+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/contribute/main/</loc>
+    <lastmod>2024-05-08T12:24:25+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/main/</loc>
+    <lastmod>2024-05-08T12:24:14+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-05-08T11:26:55+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>

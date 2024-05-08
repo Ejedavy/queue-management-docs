@@ -1,7 +1,6 @@
 +++
 title = 'Operations'
 date = 2024-05-08T12:20:05+03:00
-draft = true
 weight = 15
 +++
 

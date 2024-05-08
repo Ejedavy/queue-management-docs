@@ -1,7 +1,6 @@
 +++
 title = 'Installation'
 date = 2024-05-08T11:24:54+03:00
-draft = true
 weight = 6
 +++
 

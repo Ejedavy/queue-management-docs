@@ -1,7 +1,6 @@
 +++
 title = 'Contribute'
 date = 2024-05-08T12:24:25+03:00
-draft = true
 +++
 
 ## Getting Started
