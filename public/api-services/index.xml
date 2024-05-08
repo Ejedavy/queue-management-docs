@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API Services on Queue Management System Developer Docuementation</title>
-    <link>http://localhost:1313/api-services/</link>
+    <link>http://localhost:1313/queue-management-docs/api-services/</link>
     <description>Recent content in API Services on Queue Management System Developer Docuementation</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 May 2024 12:20:05 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/api-services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/queue-management-docs/api-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Authentication</title>
-      <link>http://localhost:1313/api-services/authentication/</link>
+      <link>http://localhost:1313/queue-management-docs/api-services/authentication/</link>
       <pubDate>Wed, 08 May 2024 12:19:06 +0300</pubDate>
-      <guid>http://localhost:1313/api-services/authentication/</guid>
+      <guid>http://localhost:1313/queue-management-docs/api-services/authentication/</guid>
       <description>Overview The Authentication Service in the QEase API provides mechanisms for managing user authentication. This includes user registration, login, token refresh, and logout functionalities. These endpoints are crucial for securing access to the application and ensuring that user credentials are handled safely.&#xA;Endpoints Register URL: /register&#xA;Method: POST&#xA;Authorization: None&#xA;Description: Register a new user with a username and password.&#xA;Request Body:&#xA;{ &amp;#34;username&amp;#34;: &amp;#34;newuser&amp;#34;, &amp;#34;password&amp;#34;: &amp;#34;password123&amp;#34;, &amp;#34;role&amp;#34;: &amp;#34;user&amp;#34; } Successful Response:</description>
     </item>
     <item>
       <title>Users</title>
-      <link>http://localhost:1313/api-services/users/</link>
+      <link>http://localhost:1313/queue-management-docs/api-services/users/</link>
       <pubDate>Wed, 08 May 2024 12:19:21 +0300</pubDate>
-      <guid>http://localhost:1313/api-services/users/</guid>
+      <guid>http://localhost:1313/queue-management-docs/api-services/users/</guid>
       <description>Overview The User Service in the QEase API provides functionalities for managing user information. It allows fetching, updating, and deleting user data, as well as listing all users registered in the system. These endpoints are critical for managing access and roles within the application.&#xA;Endpoints Current User URL: /users/me&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieve details of the currently authenticated user.&#xA;Successful Response:&#xA;Code: 200 Content: { &amp;#34;id&amp;#34;: 1, &amp;#34;username&amp;#34;: &amp;#34;currentuser&amp;#34;, &amp;#34;role&amp;#34;: &amp;#34;user&amp;#34;, &amp;#34;created_at&amp;#34;: &amp;#34;2021-01-01T12:00:00Z&amp;#34; } Error Response:</description>
     </item>
     <item>
       <title>Services</title>
-      <link>http://localhost:1313/api-services/services/</link>
+      <link>http://localhost:1313/queue-management-docs/api-services/services/</link>
       <pubDate>Wed, 08 May 2024 12:19:33 +0300</pubDate>
-      <guid>http://localhost:1313/api-services/services/</guid>
+      <guid>http://localhost:1313/queue-management-docs/api-services/services/</guid>
       <description>Overview The Service Management endpoints in the QEase API allow for managing services within the application. This includes operations to create, retrieve, update, and delete services. These endpoints are crucial for maintaining the lifecycle of services offered by the platform.&#xA;Endpoints List Services URL: /services/&#xA;Method: GET&#xA;Authorization: Optional&#xA;Description: Retrieve a list of all services, with optional search functionality.&#xA;Query Parameters:&#xA;search (string, optional): Search term to filter services. Successful Response:</description>
     </item>
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/api-services/windows/</link>
+      <link>http://localhost:1313/queue-management-docs/api-services/windows/</link>
       <pubDate>Wed, 08 May 2024 12:19:42 +0300</pubDate>
-      <guid>http://localhost:1313/api-services/windows/</guid>
+      <guid>http://localhost:1313/queue-management-docs/api-services/windows/</guid>
       <description>Overview The Windows Service in the QEase API provides functionalities for managing windows through which services are offered. These endpoints allow administrators to create, retrieve, update, and delete window records, ensuring effective management of service delivery points.&#xA;Endpoints List Windows URL: /windows/&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieves all window entries, with an optional search parameter to filter the results.&#xA;Query Parameters:&#xA;search (string, optional): A search term to filter windows by attributes such as window number.</description>
     </item>
     <item>
       <title>Clerks</title>
-      <link>http://localhost:1313/api-services/clerks/</link>
+      <link>http://localhost:1313/queue-management-docs/api-services/clerks/</link>
       <pubDate>Wed, 08 May 2024 12:19:55 +0300</pubDate>
-      <guid>http://localhost:1313/api-services/clerks/</guid>
+      <guid>http://localhost:1313/queue-management-docs/api-services/clerks/</guid>
       <description>Overview The Clerk endpoints within the QEase API manage clerk operations. These endpoints facilitate creating, retrieving, and deleting clerk information, crucial for managing clerks assigned to various service windows within the application.&#xA;Endpoints Get All Clerks URL: /clerks/&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieves all clerk entries.&#xA;Successful Response:&#xA;Code: 200 Content: [ { &amp;#34;service_id&amp;#34;: 1, &amp;#34;window_id&amp;#34;: 1 }, { &amp;#34;service_id&amp;#34;: 2, &amp;#34;window_id&amp;#34;: 2 } ] Error Response:</description>
     </item>
     <item>
       <title>Operations</title>
-      <link>http://localhost:1313/api-services/operations/</link>
+      <link>http://localhost:1313/queue-management-docs/api-services/operations/</link>
       <pubDate>Wed, 08 May 2024 12:20:05 +0300</pubDate>
-      <guid>http://localhost:1313/api-services/operations/</guid>
+      <guid>http://localhost:1313/queue-management-docs/api-services/operations/</guid>
       <description>Overview The Operations Service of the QEase API provides endpoints for managing operational aspects of services and windows, including queue management and client servicing. These endpoints are essential for the dynamic interaction between clients, services, and service windows.&#xA;Endpoints Get Service from Window URL: /operations/getService/{window_id}&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieves the service associated with a specific window.&#xA;Parameters:&#xA;window_id (path, required, integer): The ID of the window whose service is to be retrieved.</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Queue Management System Developer Docuementation</title>
-    <link>http://localhost:1313/about/</link>
+    <link>http://localhost:1313/queue-management-docs/about/</link>
     <description>Recent content in About on Queue Management System Developer Docuementation</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 May 2024 12:24:14 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/queue-management-docs/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/main/</link>
+      <link>http://localhost:1313/queue-management-docs/about/main/</link>
       <pubDate>Wed, 08 May 2024 12:24:14 +0300</pubDate>
-      <guid>http://localhost:1313/about/main/</guid>
+      <guid>http://localhost:1313/queue-management-docs/about/main/</guid>
       <description>Purpose The primary goal of QEase is to transform traditional queue management into a seamless and interactive digital experience. By leveraging advanced technologies, QEase enables organizations to optimize their service delivery, enhance operational efficiency, and improve client satisfaction. The platform facilitates a smoother flow of people through services, reduces overcrowding, and allows users to monitor and manage queues effectively.&#xA;Technology Stack QEase is built on FastAPI, a modern, fast (high-performance) web framework for building APIs with Python 3.</description>
     </item>
   </channel>
