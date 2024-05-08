@@ -10,4 +10,4 @@ pre = "<b>2. </b>"
 
 # API Services
 
-Here, you will learn about the different services offered through the Queue Management System API. 
+Here, you will learn about the different services offered through the Queue Management System API. To try out any endpoint, [CLICK HERE](https://qease-app-04a682a52c08.herokuapp.com/docs)
