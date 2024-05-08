@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 May 2024 12:24:40 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/getting-started/installation/</link>
+      <pubDate>Wed, 08 May 2024 11:24:54 +0300</pubDate>
+      <guid>http://localhost:1313/getting-started/installation/</guid>
+      <description>The following steps are here to help you initialize your backend server locally. If you don&amp;rsquo;t know programming at all, we strongly suggest you learn more about it by following this great documentation for beginners.&#xA;Prerequisites Before you begin, ensure you have the following installed:&#xA;Git Docker Python (version 3.8 or higher) Cloning the Repository Start by cloning the repository to your local machine:&#xA;git clone https://github.com/eaaniwezi/QEase.git cd QEase Setting Up PostgreSQL with Docker Run a PostgreSQL server using Docker: docker run --name postgresql -e POSTGRES_USER=yourusername -e POSTGRES_PASSWORD=yourpassword -p 5432:5432 -d postgres Replace yourusername and yourpassword with your desired username and password.</description>
+    </item>
+    <item>
+      <title>Quickstart</title>
+      <link>http://localhost:1313/getting-started/quickstart/</link>
+      <pubDate>Wed, 08 May 2024 12:00:49 +0300</pubDate>
+      <guid>http://localhost:1313/getting-started/quickstart/</guid>
+      <description>QEase API Quick Reference Guide&#xA;Base URL Base URL https://qease-app-04a682a52c08.herokuapp.com/docs&#xA;Authentication Endpoint Method Description /login POST Logs in a user /logout POST Logs out a user /register POST Registers a new user /registerAdmin POST Creates a new admin user /refresh POST Refreshes an authentication token Users Endpoint Method Description /users/me GET Retrieves the current user&amp;rsquo;s profile /users/{user_id} GET Fetches details of a user by ID /users/{user_id} PUT Updates a user&amp;rsquo;s details /users/{user_id} DELETE Deletes a user by ID /users GET Retrieves a list of users Services Endpoint Method Description /services/ GET Lists all services /services/ POST Creates a new service /services/{id} GET Retrieves a service by ID /services/{id} PUT Updates a service by ID /services/{id} DELETE Deletes a service by ID Windows Endpoint Method Description /windows/ GET Lists all windows /windows/ POST Creates a new window /windows/{id} GET Retrieves a window by ID /windows/{id} PUT Updates a window by ID /windows/{id} DELETE Deletes a window by ID Clerks Endpoint Method Description /clerks/ GET Retrieves all clerks /clerks/ POST Posts clerks information /clerks/{window_id} DELETE Deletes a clerk entry by window ID Operations Endpoint Method Description /operations/getService/{window_id} GET Fetches service by window ID /operations/getWindow/{service_id} GET Retrieves window by service ID /operations/joinQueue/{service_id} POST User joins a queue by service ID /operations/callClientByWindow POST Calls client by window /operations/processClientByWindow POST Processes client by window /operations/acceptClientByWindow POST Accepts client by window /operations/rejectClientByWindow POST Rejects client by window Security Most endpoints require authentication using HTTP Bearer tokens.</description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>http://localhost:1313/api-services/authentication/</link>
+      <pubDate>Wed, 08 May 2024 12:19:06 +0300</pubDate>
+      <guid>http://localhost:1313/api-services/authentication/</guid>
+      <description>Overview The Authentication Service in the QEase API provides mechanisms for managing user authentication. This includes user registration, login, token refresh, and logout functionalities. These endpoints are crucial for securing access to the application and ensuring that user credentials are handled safely.&#xA;Endpoints Register URL: /register&#xA;Method: POST&#xA;Authorization: None&#xA;Description: Register a new user with a username and password.&#xA;Request Body:&#xA;{ &amp;#34;username&amp;#34;: &amp;#34;newuser&amp;#34;, &amp;#34;password&amp;#34;: &amp;#34;password123&amp;#34;, &amp;#34;role&amp;#34;: &amp;#34;user&amp;#34; } Successful Response:</description>
+    </item>
+    <item>
+      <title>Users</title>
+      <link>http://localhost:1313/api-services/users/</link>
+      <pubDate>Wed, 08 May 2024 12:19:21 +0300</pubDate>
+      <guid>http://localhost:1313/api-services/users/</guid>
+      <description>Overview The User Service in the QEase API provides functionalities for managing user information. It allows fetching, updating, and deleting user data, as well as listing all users registered in the system. These endpoints are critical for managing access and roles within the application.&#xA;Endpoints Current User URL: /users/me&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieve details of the currently authenticated user.&#xA;Successful Response:&#xA;Code: 200 Content: { &amp;#34;id&amp;#34;: 1, &amp;#34;username&amp;#34;: &amp;#34;currentuser&amp;#34;, &amp;#34;role&amp;#34;: &amp;#34;user&amp;#34;, &amp;#34;created_at&amp;#34;: &amp;#34;2021-01-01T12:00:00Z&amp;#34; } Error Response:</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://localhost:1313/api-services/services/</link>
+      <pubDate>Wed, 08 May 2024 12:19:33 +0300</pubDate>
+      <guid>http://localhost:1313/api-services/services/</guid>
+      <description>Overview The Service Management endpoints in the QEase API allow for managing services within the application. This includes operations to create, retrieve, update, and delete services. These endpoints are crucial for maintaining the lifecycle of services offered by the platform.&#xA;Endpoints List Services URL: /services/&#xA;Method: GET&#xA;Authorization: Optional&#xA;Description: Retrieve a list of all services, with optional search functionality.&#xA;Query Parameters:&#xA;search (string, optional): Search term to filter services. Successful Response:</description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/api-services/windows/</link>
+      <pubDate>Wed, 08 May 2024 12:19:42 +0300</pubDate>
+      <guid>http://localhost:1313/api-services/windows/</guid>
+      <description>Overview The Windows Service in the QEase API provides functionalities for managing windows through which services are offered. These endpoints allow administrators to create, retrieve, update, and delete window records, ensuring effective management of service delivery points.&#xA;Endpoints List Windows URL: /windows/&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieves all window entries, with an optional search parameter to filter the results.&#xA;Query Parameters:&#xA;search (string, optional): A search term to filter windows by attributes such as window number.</description>
+    </item>
+    <item>
+      <title>Clerks</title>
+      <link>http://localhost:1313/api-services/clerks/</link>
+      <pubDate>Wed, 08 May 2024 12:19:55 +0300</pubDate>
+      <guid>http://localhost:1313/api-services/clerks/</guid>
+      <description>Overview The Clerk endpoints within the QEase API manage clerk operations. These endpoints facilitate creating, retrieving, and deleting clerk information, crucial for managing clerks assigned to various service windows within the application.&#xA;Endpoints Get All Clerks URL: /clerks/&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieves all clerk entries.&#xA;Successful Response:&#xA;Code: 200 Content: [ { &amp;#34;service_id&amp;#34;: 1, &amp;#34;window_id&amp;#34;: 1 }, { &amp;#34;service_id&amp;#34;: 2, &amp;#34;window_id&amp;#34;: 2 } ] Error Response:</description>
+    </item>
+    <item>
+      <title>Operations</title>
+      <link>http://localhost:1313/api-services/operations/</link>
+      <pubDate>Wed, 08 May 2024 12:20:05 +0300</pubDate>
+      <guid>http://localhost:1313/api-services/operations/</guid>
+      <description>Overview The Operations Service of the QEase API provides endpoints for managing operational aspects of services and windows, including queue management and client servicing. These endpoints are essential for the dynamic interaction between clients, services, and service windows.&#xA;Endpoints Get Service from Window URL: /operations/getService/{window_id}&#xA;Method: GET&#xA;Authorization: Bearer Token (required)&#xA;Description: Retrieves the service associated with a specific window.&#xA;Parameters:&#xA;window_id (path, required, integer): The ID of the window whose service is to be retrieved.</description>
+    </item>
+    <item>
+      <title>Maintenance</title>
+      <link>http://localhost:1313/maintenance/main/</link>
+      <pubDate>Wed, 08 May 2024 12:24:40 +0300</pubDate>
+      <guid>http://localhost:1313/maintenance/main/</guid>
+      <description>Regular Maintenance Tasks Database Backups Perform regular database backups to prevent data loss. Use automated tools or scripts to schedule backups. Store backups in a secure and reliable location. Dependency Updates Regularly update project dependencies to their latest stable versions to ensure security and performance. Test updates in a development environment before applying them to production. Performance Monitoring Monitor the application&amp;rsquo;s performance to identify potential bottlenecks or issues. Utilize logging and monitoring tools to keep track of system health.</description>
+    </item>
+    <item>
+      <title>Contribute</title>
+      <link>http://localhost:1313/contribute/main/</link>
+      <pubDate>Wed, 08 May 2024 12:24:25 +0300</pubDate>
+      <guid>http://localhost:1313/contribute/main/</guid>
+      <description>Getting Started Fork the Repository&#xA;Start by forking the QEase repository to your GitHub account. Clone Your Fork&#xA;Clone your fork to your local machine: git clone https://github.com/yourusername/QEase.git cd QEase Set Up Your Development Environment&#xA;Set up the project environment as described in the project&amp;rsquo;s README. Create a Branch&#xA;Create a new branch for your feature or fix: git checkout -b your-branch-name Making Changes Make your changes locally. Write or adapt tests as necessary.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/main/</link>
+      <pubDate>Wed, 08 May 2024 12:24:14 +0300</pubDate>
+      <guid>http://localhost:1313/about/main/</guid>
+      <description>Purpose The primary goal of QEase is to transform traditional queue management into a seamless and interactive digital experience. By leveraging advanced technologies, QEase enables organizations to optimize their service delivery, enhance operational efficiency, and improve client satisfaction. The platform facilitates a smoother flow of people through services, reduces overcrowding, and allows users to monitor and manage queues effectively.&#xA;Technology Stack QEase is built on FastAPI, a modern, fast (high-performance) web framework for building APIs with Python 3.</description>
+    </item>
+  </channel>
+</rss>

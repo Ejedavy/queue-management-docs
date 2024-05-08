@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contribute on My New Hugo Site</title>
+    <link>http://localhost:1313/contribute/</link>
+    <description>Recent content in Contribute on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 May 2024 12:24:25 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/contribute/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contribute</title>
+      <link>http://localhost:1313/contribute/main/</link>
+      <pubDate>Wed, 08 May 2024 12:24:25 +0300</pubDate>
+      <guid>http://localhost:1313/contribute/main/</guid>
+      <description>Getting Started Fork the Repository&#xA;Start by forking the QEase repository to your GitHub account. Clone Your Fork&#xA;Clone your fork to your local machine: git clone https://github.com/yourusername/QEase.git cd QEase Set Up Your Development Environment&#xA;Set up the project environment as described in the project&amp;rsquo;s README. Create a Branch&#xA;Create a new branch for your feature or fix: git checkout -b your-branch-name Making Changes Make your changes locally. Write or adapt tests as necessary.</description>
+    </item>
+  </channel>
+</rss>
